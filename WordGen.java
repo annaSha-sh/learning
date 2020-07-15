@@ -2,7 +2,7 @@ public class WordGen{
     public static void main(String[] args) {
         String[] temper = {"тепло","холодно","жарко","прохладно","мороз"};
         String[] osadki = {"дождь","ясно","град","ливень"};
-        String[] wind = {"штиль","ветренно","шторм"};
+        String[] wind = {"штиль","ветренно","шторм","ураган"};
         int lentemp = temper.length;
         int lenos = osadki.length;
         int lenwind = wind.length;
