@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TEST {
+public class CutArray2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int m = in.nextInt(); // m - mas length
@@ -14,8 +14,7 @@ public class TEST {
         for (int i=1;i<mas.length;i++) {
             if (mas[i]>mas[i-1]) {
                 count++; 
-                if (count==mas.length) count2=count;
-                
+                if (count==mas.length) count2=count;               
             }
             else if (count>count2) {count2=count; count=1;}
             else count=1;
